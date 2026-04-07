@@ -15,7 +15,5 @@ public class biggerTwo {
             } else {
                 return b;
             }
-
         }
-
 }

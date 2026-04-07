@@ -3,8 +3,7 @@ public class double23 {
             System.out.println(double23(new int[]{2, 2}));
             System.out.println(double23(new int[]{3, 3}));
             System.out.println(double23(new int[]{2, 3}));
-            System.out.println(double23(new int[]{2}));
-            System.out.println(double23(new int[]{}));
+
         }
 
         public static boolean double23(int[] nums) {

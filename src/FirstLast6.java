@@ -1,8 +1,5 @@
 public class FirstLast6 {
     public static void main(String[] args) {
-        int[] nums={1, 2, 6};
-        int[] nums1={6, 1, 2, 3};
-        int[] nums2={13, 6, 1, 2, 3};
 
         System.out.println(FirstLast6(new int[]{1 , 2, 6}));
         System.out.println(FirstLast6(new int[]{6, 1, 2, 3}));
@@ -12,7 +9,6 @@ public class FirstLast6 {
         if (nums.length>=1){
             if (nums[0]==6 || nums [nums.length-1] ==6) {
                 return true;
-
             }
         }
         return false;

@@ -8,7 +8,6 @@ public class fix23 {
         System.out.println(fix23(new int[]{2, 3, 5}));
         System.out.println(fix23(new int[]{1, 2, 1}));
     }
-
     public static int[] fix23(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++) {
             if (nums[i] == 2 && nums[i + 1] == 3) {
